@@ -7,7 +7,7 @@
  const
   express = require('express'),
   http = require('http'),
-  ejsLayouts = require('express-ejs-layouts'),
+  //ejsLayouts = require('express-ejs-layouts'),
   path = require('path');
 //=============================================================================
 /**
@@ -30,7 +30,7 @@
  app.set('views', path.join(__dirname, '/views'));
  app.engine('html', require('ejs').renderFile);
  app.set('view engine', 'html');
- app.set('layout', 'layout');
+ //app.set('layout', 'layout');
 
  if(ENV != 'production') {
      app.use(require('morgan')('dev'));
