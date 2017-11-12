@@ -1,0 +1,28 @@
+{
+  "name": "marketinautomation",
+  "version": "1.0.0",
+  "description": "test project for mautic",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-ejs-layouts": "^2.3.1"
+  },
+  "devDependencies": {
+    "clarify": "^2.0.0",
+    "morgan": "^1.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oakinogundeji/marketinAutomation.git"
+  },
+  "author": "TSSDEVS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oakinogundeji/marketinAutomation/issues"
+  },
+  "homepage": "https://github.com/oakinogundeji/marketinAutomation#readme"
+}
